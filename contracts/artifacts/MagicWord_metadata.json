@@ -1,0 +1,103 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getCurrentMagicWord",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "word",
+						"type": "string"
+					}
+				],
+				"name": "inputMagicWord",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "makeMagicBaby",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store za magic word and get za magic sentence",
+			"kind": "dev",
+			"methods": {},
+			"title": "MagicWord",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MagicWordInteractive.sol": "MagicWord"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"details": {
+				"constantOptimizer": false,
+				"cse": false,
+				"deduplicate": false,
+				"inliner": false,
+				"jumpdestRemover": false,
+				"orderLiterals": false,
+				"peephole": false,
+				"simpleCounterForLoopUncheckedIncrement": true,
+				"yul": false
+			},
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MagicWordInteractive.sol": {
+			"keccak256": "0x2134ba56276efe95067512de03bfb44b79ac4a2c5688d74d46cc3fcc7aff7831",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ac68ceef0357df684ed950121949c5717801e920859f4597ebd23b5f9ad98bbe",
+				"dweb:/ipfs/QmX5xBTvkwHSMeCLZDn7gbdEJR2kGfMCDNdDPXEvaatXo6"
+			]
+		}
+	},
+	"version": 1
+}

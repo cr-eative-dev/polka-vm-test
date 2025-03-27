@@ -1,0 +1,52 @@
+{
+  "name": "MagicWord",
+  "address": "0xf9df8ed54a841ed1b3089725895e017d81b6a51e",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "word",
+          "type": "string"
+        }
+      ],
+      "name": "inputMagicWord",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "getCurrentMagicWord",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "makeMagicBaby",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "filePath": "default_workspace/contracts/MagicWord.sol",
+  "pinnedAt": 1743091147790
+}

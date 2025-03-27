@@ -1,6 +1,6 @@
 {
   "name": "MagicWord",
-  "address": "0xf9df8ed54a841ed1b3089725895e017d81b6a51e",
+  "address": "0x15317068538962b9639078064ad5353daf93b5d7",
   "abi": [
     {
       "inputs": [
@@ -48,5 +48,5 @@
     }
   ],
   "filePath": "default_workspace/contracts/MagicWord.sol",
-  "pinnedAt": 1743091147790
+  "pinnedAt": 1743091935870
 }

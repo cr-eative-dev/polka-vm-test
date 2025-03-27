@@ -1,0 +1,23 @@
+{
+  "accounts": {
+    "account{0}": "0xe624c5C6Af408d56c9df42FD00e63fDFF3021866"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1743094975413,
+      "record": {
+        "value": "0",
+        "inputs": "(string)",
+        "parameters": [
+          "PBA"
+        ],
+        "name": "inputMagicWord",
+        "type": "function",
+        "to": "created{undefined}",
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {}
+}
